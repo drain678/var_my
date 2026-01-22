@@ -20,13 +20,16 @@ psql -U postgres -d postgres
 ```bash
  \dt
 ```
-Посмотреть структуру таблицы students:
+Посмотреть структуру таблицы student:
 ```bash
-\d students 
+\d student
 ```
 Посмотреть что в таблице:
 ```bash
-SELECT * FROM students;
-```bash
-выйти \q из postgres=# а из root@d2490b5070f6:/#  я нажала контрол D
+SELECT * FROM student;
 ```
+Выйти из postgres=#
+```bash
+\q    
+```
+а из root@d2490b5070f6:/#  - я нажала контрол D
